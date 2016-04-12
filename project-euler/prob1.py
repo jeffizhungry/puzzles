@@ -2,9 +2,9 @@
 
 """
 Problem 1: Multiples of 3 and 5
-#
+
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
-#
+
 Find the sum of all the multiples of 3 or 5 below 1000.
 """
 import sys
@@ -64,11 +64,12 @@ def solution():
 # *****************************************************************************
 
 if __name__ == "__main__":
-   testcases = [10, 16, 20, 30, 100, 500, 1000]
-   for t in testcases:
-       print("Optimized = {}, simple = {}".
-             format(sum_multi_three_and_five(t), simple(t)))
-
+    print(solution())
+#    testcases = [10, 16, 20, 30, 100, 500, 1000]
+#    for t in testcases:
+#        print("Optimized = {}, simple = {}".
+#              format(sum_multi_three_and_five(t), simple(t)))
+#
 #     if sys.argv[1] == '1':
 #         for i in range(10000):
 #             simple(int(sys.argv[2]))
